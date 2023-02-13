@@ -16,11 +16,11 @@ void PrintArray(string[] array)
     int len = array.Length;
     if (len > 0)
     {
-        Console.Write($"[{array[0]}");
+        Console.Write($"['{array[0]}'");
         int i = 1;
         while (i < len)
         {
-            Console.Write($", {array[i]}");
+            Console.Write($", '{array[i]}'");
             i++;
         }
         Console.Write("]");
